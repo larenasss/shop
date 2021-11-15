@@ -1,7 +1,11 @@
 <template>
   <div class="item">
     <img :src="product.img" :alt="product.title">
-    <p>{{ product.title }}</p>
+    <router-link
+      :to="/product/ + product.id"
+      class="link">
+      {{ product.title }}
+    </router-link>
   </div>
 </template>
 

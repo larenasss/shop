@@ -100,7 +100,8 @@ section,
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-top: 80px; // if header is fixed do mt: headerHeight
+  margin-top: 80px;
+  height: 1px;
 }
 
 .container {
@@ -109,6 +110,7 @@ section,
   margin: 0 auto;
   width: 100%;
   max-width: $tableWidth;
+  height: 100%;
 
   @media screen and (max-width: $lgDesktopWidth) {
     padding: 0 16px;

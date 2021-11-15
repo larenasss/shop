@@ -22,15 +22,25 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+  .wrapper-content {
+    justify-content: center;
+  }
+
   .item-wrap {
     display: flex;
     flex-wrap: wrap;
+    margin: -1rem;
+    height: 100%;
   }
 
   .item {
-    max-width: 48%;
+    max-width: 50%;
     text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     & p {
       font-size: 1.5rem;
