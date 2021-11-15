@@ -1,5 +1,5 @@
 <template>
-  <div>{{ message }}</div>
+  <div></div>
 </template>
 
 <script>
@@ -7,10 +7,5 @@
     data() {
       return {}
     },
-    computed: {
-      message() {
-        return this.$store.getters.getMessage
-      }
-    }
   }
 </script>
