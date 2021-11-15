@@ -1,7 +1,7 @@
 module.exports = {
   productionSourceMap: false,
   assetsDir: 'assets',
-  publicPath: '',
+  publicPath: '/shop/dist/',
   pages: {
     index: {
       // entry for the page
