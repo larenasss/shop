@@ -4,6 +4,7 @@ const routerHistory = createWebHashHistory();
 
 import HomePage from '@/pages/home';
 import AboutPage from '@/pages/about';
+import ProductPage from '@/pages/product';
 import NotFoundPage from '@/pages/notFound';
 
 const routes = createRouter({
@@ -18,6 +19,11 @@ const routes = createRouter({
       path: '/about',
       name: 'about',
       component: AboutPage,
+    },
+    {
+      path: '/product/:id',
+      name: 'product',
+      component: ProductPage,
     },
     {
       path: '/:pathMatch(.*)*',
