@@ -1,5 +1,5 @@
 export const app = {
-  title: '',
+  title: 'Shop',
 };
 
 export const links = [

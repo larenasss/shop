@@ -2,9 +2,9 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 
 const routerHistory = createWebHashHistory();
 
-import HomePage from './pages/home';
-import AboutPage from './pages/about';
-import NotFoundPage from './pages/notFound';
+import HomePage from '@/pages/home';
+import AboutPage from '@/pages/about';
+import NotFoundPage from '@/pages/notFound';
 
 const routes = createRouter({
   history: routerHistory,

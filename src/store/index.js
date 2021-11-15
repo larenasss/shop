@@ -1,10 +1,10 @@
 import { createStore } from 'vuex';
 
-import example from './example';
+import shop from './shop';
 
 const store = createStore({
   modules: {
-    example,
+    shop,
   },
 });
 
