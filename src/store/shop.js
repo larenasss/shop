@@ -37,13 +37,9 @@ const example = {
       ],
     };
   },
-  mutations: {},
-  actions: {},
   getters: {
-    getShopList: (state) => state.shopList,
-    getProductById: (state) => (id) => {
-      return state.shopList.find((product) => product.id === Number(id));
-    },
+    getShopList: ({ shopList }) => shopList,
+    getProductById: ({ shopList }) => id => shopList.find(product => product.id === Number(id))
   },
 };
 
